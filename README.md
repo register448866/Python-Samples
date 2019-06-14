@@ -1,5 +1,5 @@
 # Python-Samples
-====
+
 Assorted Python programs
 
 ## Built-in function 'print(arg)'
@@ -21,14 +21,13 @@ input function always returns variable of type 'str'
 - bool (arg) > converts string into boolean
 
 # Samples
-=====
 
 ## Compound Interest Calculator
 Simple python program to calculate compound interest
 
-####Sample output:
+#### Sample output:
 
-```python
+```
 ===============================================
  COMPOUND INTEREST CALCULATOR
 ===============================================
