@@ -2,30 +2,11 @@
 
 Assorted Python programs
 
-## Built-in function 'print(arg)'
-print is built-in function. Prints argument on default output screen
-
-## Variable types
-Four primary variable types
-- string
-- integer
-- float
-- boolean (True/False)
-
-## Built-in function 'str = input(arg)'
-input function always returns variable of type 'str'
-
-## Built-in function for type conversions
-- int(arg) > converts string into integer 
-- float(arg) > converts string into float
-- bool (arg) > converts string into boolean
-
 # Samples
 
 ## Compound Interest Calculator
-Simple python program to calculate compound interest
-
-#### Sample output:
+Python program to calculate compound interest
+[Click here](https://github.com/tvpatel01/Python-Samples/blob/master/interest-calc.py)
 
 ```
 ===============================================
@@ -41,3 +22,12 @@ Simple python program to calculate compound interest
  Final Amount              : $ 14859.47
 ===============================================
 ```
+## Weight Converstion between LBS and KG
+Python program to convert between pounds and kilograms
+
+'''
+Weight: 150
+L(bs) or K(g): lbs
+You are 68.10 kilograms.
+'''
+
