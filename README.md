@@ -25,9 +25,8 @@ Python program to calculate compound interest
 ## Weight Converstion between LBS and KG
 Python program to convert between pounds and kilograms
 
-'''
+```
 Weight: 150
 L(bs) or K(g): lbs
 You are 68.10 kilograms.
-'''
-
+```
