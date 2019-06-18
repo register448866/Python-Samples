@@ -1,0 +1,3 @@
+# TUPLES = LISTS BUT CANNOT CHANGE
+
+numbers = (1, 2, 3)
