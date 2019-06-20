@@ -37,6 +37,18 @@ twoplace={
     "0": ""
 }
 
+threeplace={
+    "1": "One hundred ",
+    "2": "Two hundred ",
+    "3": "Three hundred ",
+    "4": "Four hundred ",
+    "5": "Five hundred ",
+    "6": "Six hundred ",
+    "7": "Seven hundred ",
+    "8": "Eight hundred ",
+    "9": "Nine hundred ",
+    "0": ""
+}
 answer = ''
 
 if len(phone) == 1:
@@ -50,6 +62,14 @@ if len(phone) == 2:
     else:
         answer = twoplace[phone[0]] + (oneplace[phone[1]]).lower()
 
+if len(phone) == 3:
+    if phone[0] == '0':
+        if phone[1] == '1':
+            answer = abnormal[phone]
+        elif phone[1] == '0':
+            answer = oneplace[phone[1]]
+        else:
+            answer = twoplace[phone[0]] + (oneplace[phone[1]]).lower()
 
 # Print result
 print(answer)
